@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="">Your names</label>
+    <input type="text" name="names" placeholder="type your name here" size="50"/><br>
+    
+    <label>Password</label>
+    <input type="password" name="userpassword"><br>
+
+    <label>upload photo</label>
+    <input type="file" name="passportsizephoto"><br>
+
+    <label>what is your favorite color </label>
+    <input type="color" name="color"><br>
+
+    <label>date of birth </label>
+    <input type="date" name="dob"><br>
+
+    <label>year of study </label>
+    <input type="number" name="year of study" min="1" max="10" step="2"><br>
+
+    <label>Email</label>
+    <input type="email" name="email"><br>
+    
+ <!-- radio button -->
+    <label>Select your Gender</label><br>
+    <label>Male</label><input type="radio" name="gender" value="Male"/>
+   <Label>Female</Label><input type="radio" name="gender" value="Female"/>
+
+   <!-- Check box -->
+   <h4>Who among these is your friend</h4>
+   <input type="checkbox" name="Ezekiel" value="Yes"> <label>Ezekiel</label><br>
+   <input type="checkbox" name="Alfred" value="Yes"><label>Alfred</label><br>
+   <input type="checkbox" name="Derrick" value="Yes"><label>Derrick</label><br>
+   <input type="checkbox" name="Allan" value="Yes"><label>Allan</label><br>
+        <!-- select form -->
+        <h4>Select your course</h4>
+        <select name="Course">
+        <option value="select">Chose...</option>
+        <option value="BSC IT">BSc Info Tech</option>
+        <option value="BAM">Business</option>
+        <option value="EDUC" selected>Education</option>
+ 
+    </select><br><br>
+
+    <!-- textarea -->
+    <textarea name="comments" cols="30" rows="5">
+        Comment about my website
+    </textarea><br>
+
+
+   <input type="submit" value="Send">
+    <input type="reset" value="Cancel"><br><br>
+    </form>
+
+</body>
+</html>
